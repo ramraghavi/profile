@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   download() {
-    const pdfUrl='../assets/img/sample.pdf';
+    const pdfUrl='./assets/img/sample.pdf';
     const pdfName = 'sample.pdf';
     FileSaver.saveAs(pdfUrl,pdfName);
   }
